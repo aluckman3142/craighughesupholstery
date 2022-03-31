@@ -1,0 +1,81 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.fade-in {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+}
+@keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.owl-theme .owl-nav {
+    position: absolute;
+    bottom: 20px;
+    right:20px;
+}
+
+.owl-theme .owl-nav .owl-prev {
+    border: none !important;
+    background: none !important; /* required to overwrite default owl nav background*/
+    background-image: url('/img/icons/left-arrow.png') !important;
+    width: 30px;
+    height: 30px;
+}
+
+.owl-theme .owl-nav .owl-next {
+    border: none !important;
+    background: none !important; /* required to overwrite default owl nav background*/
+    background-image: url('/img/icons/right-arrow.png') !important;
+    width: 30px;
+    height: 30px;
+}
+
+.back {
+    width: 100% !important;
+}

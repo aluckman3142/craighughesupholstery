@@ -1,0 +1,60 @@
+// Variables
+@import 'variables';
+
+// Stripe Card
+@import 'card';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+
+.owl-theme .owl-nav {
+  position: absolute;
+  bottom: 20px;
+  right:20px;
+}
+
+.owl-theme .owl-nav .owl-prev {
+  border: none !important;
+  background: none !important; /* required to overwrite default owl nav background*/
+  background-image: url('/img/icons/left-arrow.png') !important;
+  width: 30px;
+  height: 30px;
+}
+
+.owl-theme .owl-nav .owl-next {
+  border: none !important;
+  background: none !important; /* required to overwrite default owl nav background*/
+  background-image: url('/img/icons/right-arrow.png') !important;
+  width: 30px;
+  height: 30px;
+}
+
+.back {
+  width: 100% !important;
+}
+
+#videolist {
+  margin:auto !important;
+  width: 1024px !important;
+}
+
+#videolist ul {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#videolist ul li {
+  margin:20px;
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
